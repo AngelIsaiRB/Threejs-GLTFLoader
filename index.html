@@ -10,11 +10,9 @@
     <script src="OrbitControls.js"></script> -->
     
     <script type="module">
-        import * as THREE from 'https://unpkg.com/three/build/three.module.js';
-        import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r122/examples/jsm/controls/OrbitControls.js';
-import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r122/examples/jsm/loaders/GLTFLoader.js';
-        // import {OrbitControls} from './OrbitControls.js';
-        // import {GLTFLoader} from './GLTFLoader.js';
+        import * as THREE from './three.module.js';
+        import {OrbitControls} from "./OrbitControls.js";        
+        import {GLTFLoader} from './GLTFLoader.js';
         
       let scene, camera, renderer;
 
@@ -29,6 +27,7 @@ import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/thre
         camera.position.y = 5;
         camera.position.z = 5;
        
+        
         
         
 
